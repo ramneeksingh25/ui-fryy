@@ -1,8 +1,28 @@
+import { useGSAP } from "@gsap/react";
 import Banner from "../components/Banner";
 import Hero1 from "../components/Hero1";
 import Phones from "../components/Phones";
+import gsap from "gsap";
+
 
 const Page1 = () => {
+	var t2 = new gsap.timeline();
+	useGSAP(()=>{
+		t2.from(".left",{
+			x:-30,
+			opacity:0,
+            duration:1,
+            delay:0.5,
+            stagger:0.1
+		})
+		t2.from(".right",{
+			y:-30,
+			opacity:0,
+            duration:1,
+            delay:0.5,
+            stagger:0.1
+		})
+	})
 	return (
 		<>
 			<div className="absolute top-[9%] right-[5%] ">
@@ -22,7 +42,7 @@ const Page1 = () => {
 			</div>
 			<div className="grid grid-cols-2 gap-2 pt-[10%]">
 				<div className="grid grid-rows-2 ">
-					<div className=" relative">
+					<div className="left relative">
 						<Hero1 />
 						<div className="text-7xl font-fgb z-[10]">
 							<h1>Make The Best</h1>
@@ -55,7 +75,7 @@ const Page1 = () => {
 						<Banner/>
 					</div>
 				</div>
-				<div className="h-full">
+				<div className="h-full right">
 					<Phones/>
 				</div>
 			</div>
