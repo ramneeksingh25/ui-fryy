@@ -22,6 +22,13 @@ const Page1 = () => {
             delay:0.5,
             stagger:0.1
 		})
+		t2.from(".star",{
+			opacity:0,
+			scale:0.2,
+            duration:1,
+            delay:0.5,
+            stagger:0.1
+		})
 	})
 	return (
 		<>
@@ -29,14 +36,14 @@ const Page1 = () => {
 				<img
 					src="./src/assets/images/Star 1.png"
 					alt="Star"
-					className="w-[5vw]"
+					className="w-[5vw] star"
 				/>
 			</div>
 			<div className="absolute top-[19%] left-[5%] ">
 				<img
 					src="./src/assets/images/Star 1.png"
 					alt="Star"
-					className="w-[3vw]"
+					className="w-[3vw] star"
 					style={{ rotate: "50deg" }}
 				/>
 			</div>
@@ -67,7 +74,7 @@ const Page1 = () => {
 							<img
 								src="./src/assets/images/Star 1.png"
 								alt="Star"
-								className="w-[3vw]"
+								className="w-[3vw] star"
 								style={{ rotate: "50deg" }}
 							/>
 						</div>
