@@ -1,6 +1,5 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { useEffect } from "react";
 
 const Banner = () => {
     var bannerAnim = gsap.timeline();
