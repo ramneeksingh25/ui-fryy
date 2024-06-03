@@ -7,14 +7,14 @@ const Page1 = () => {
 		<>
 			<div className="absolute top-[9%] right-[5%] ">
 				<img
-					src="src/assets/images/Star 1.png"
+					src="./src/assets/images/Star 1.png"
 					alt="Star"
 					className="w-[5vw]"
 				/>
 			</div>
 			<div className="absolute top-[19%] left-[5%] ">
 				<img
-					src="src/assets/images/Star 1.png"
+					src="./src/assets/images/Star 1.png"
 					alt="Star"
 					className="w-[3vw]"
 					style={{ rotate: "50deg" }}
@@ -45,7 +45,7 @@ const Page1 = () => {
 					<div className="relative">
 						<div className="absolute top-[25%] left-[0%] z-[10]">
 							<img
-								src="src/assets/images/Star 1.png"
+								src="./src/assets/images/Star 1.png"
 								alt="Star"
 								className="w-[3vw]"
 								style={{ rotate: "50deg" }}

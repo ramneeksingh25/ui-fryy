@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className=" h-20 w-full flex justify-between items-center font-fgm tracking-wide text-lg ">
         <div className="flex justify-between items-center">
-          <img src="src/assets/images/Logo.png" alt="LOGO" />
+          <img src="./src/assets/images/Logo.png" alt="LOGO" />
           <div className="flex">
             {menuItems.map((item,i)=>{
               return <div key={i} className={` cursor-pointer ml-16  whitespace-nowrap ${i==selected&&" text-[#FF5555] font-fgb text-xl"}`}
