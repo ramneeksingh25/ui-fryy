@@ -4,25 +4,25 @@
 @layer base {
     @font-face {
         font-family: 'FoundersGrotesk-Bold';
-        src: url('../fonts/Founders/FoundersGrotesk-Bold.otf') format('opentype');
+        src: url('/assets/fonts/Founders/FoundersGrotesk-Bold.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
       }
     @font-face {
         font-family: 'FoundersGrotesk-Medium';
-        src: url('../fonts/Founders/FoundersGrotesk-Medium.otf') format('opentype');
+        src: url('/assets/fonts/Founders/FoundersGrotesk-Medium.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
       }
     @font-face {
         font-family: 'FoundersGrotesk-SemiBold';
-        src: url('../fonts/Founders/FoundersGrotesk-SemiBold.otf') format('opentype');
+        src: url('/assets/fonts/Founders/FoundersGrotesk-SemiBold.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
       }
     @font-face {
         font-family: 'FoundersGrotesk-Light';
-        src: url('../fonts/Founders/FoundersGrotesk-Light.otf') format('opentype');
+        src: url('/assets/fonts/Founders/FoundersGrotesk-Light.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
       }
